@@ -17,10 +17,11 @@ git clone https://github.com/Cardinal-Cryptography/aleph-node-runner
 cd aleph-node-runner
 ./run_node.sh -n nodeismi
 ```
-## Node güncelleme için
+# Validator için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
 ```
-docker stop nodeismi
-cd aleph-node-runner
-./run_node.sh -n node ismi 
-docker start nodeismi
+./signer.sh
+```
+## Log görünteleme
+```
+docker logs --follow nodeismi
 ```
