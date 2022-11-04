@@ -1,7 +1,10 @@
 # Aleph-Zero-Testnet
+## Güncelleme yapıyoruz
 ```
 sudo apt update && sudo apt upgrade -y
 ```
- ## Aleph
- ### Alephzero
-
+## İlgili kurulumları yapıyoruz
+```
+sudo apt install wget git -y
+sudo apt-get install docker.io -y
+```
