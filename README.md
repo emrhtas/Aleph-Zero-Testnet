@@ -15,7 +15,7 @@ git clone https://github.com/Cardinal-Cryptography/aleph-node-runner
 ## Nodemizi çalıştırıyoruz( nodeismi yazan yere validator olarak görünmesini istediğiniz ismi yazın) bu yükleme biraz uzun sürebilir. 
 ```
 cd aleph-node-runner
-./run_node.sh -n NODEİSMİ
+./run_node.sh -n NODEİSMİ --ip SUNUCUIPADRESİ
 ```
 # Validator için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
 ```
