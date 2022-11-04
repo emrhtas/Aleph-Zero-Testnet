@@ -30,7 +30,7 @@ docker logs --follow NODEİSMİ
 ## 8)Validator başvuru yapıyoruz
 (https://validators.alephzero.org/)
 Siteye gidiyoruz ve mail adresimizi yazıyoruz ve maile gelen kodu girerek oturum açıyoruz.  Validator adı ve  sosyal medya hesaplarımızı falan istiyor. Validator adı kısmına kısmına node kurarken kullandığımız ismi kullanalım. Diğer bilgileri istediğiniz gibi ayarlayın.Bu bilgileri aldıktan sonra ' Become a Validator' kısmında 'Apply' tuşuna basıyoruz.  5. adımda aldığımız çıktıdaki bilgileri burada kullanıyoruz. Stash account kısmına kullanacağınız cüzdan adresini yazın.
-## Doğrulama İşlemleri(bu doğrulamaları yapmazsanız başvurunuz reddedilir).
+## 9)Doğrulama İşlemleri(bu doğrulamaları yapmazsanız başvurunuz reddedilir).
 ### Telemetry de Node ismin görünecek. (kurulum yaparken açık oluyor zaten kontrol edersiniz)
 (https://telemetry.azero.dev/#list/0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5) 
 ### Kimlik Ayarı
@@ -40,8 +40,26 @@ Siteye gidiyoruz ve mail adresimizi yazıyoruz ve maile gelen kodu girerek oturu
 (https://faucet.test.azero.dev/) Günlük 25k token alabiliyorsunuz. Burada 2 cüzdanla token alıp fazladan aldığınız 25k tokeni validator oluşturacağınız cüzdanınıza göndermenizi tavsiye ederim.
 ### Stash ve Bond işlemi
 (https://test.azero.dev/#/staking/actions) Açılan sayfada sağ tarafta ' Stash' tuşuna basıyoruz ve en az 25k token seçerek bond diyoruz.
-### Oturum anahtarı oluşturuyoruz
-Sunucumuza bağlanıp aşağıdaki komutu giriyoruz ve çıktıyı kaydediyoruz.
+### Session Key oluşturuyoruz
+Sunucumuza bağlanıp aşağıdaki komutu giriyoruz.
 ```
 curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys"}' http://127.0.0.1:9933
 ```
+
+Aldığımız çıktı şu şekilde olacak;
+{"jsonrpc":"2.0","result":"0xa8bccfe29da88f256545d2addc194b734f615cec70b99845d56384e0c0c2fe64de211d8dd724dece2b3bc26c3250c550b644fb586c0875693ee1099c13feb806
+Çıktıyı not almayı unutmayın 0x le başlayan kısım bizim anahtarımız!!!
+(https://test.azero.dev/#/staking/actions)   cüzdanımızın sağ tarafındaki 'set session key' tuşuna basarak sunucumuzdan aldığımız 0x li anahtarı giriyoruz ve onaylıyoruz.
+İşlem onaylandıktan sonra yine aynı sayfada cüzdanımızın sağ tarafında olan 'validate' tuşuna basarak komisyon oranımızı belirliyoruz ve onaylıyoruz. 
+
+#### Buraya kadar olan adımları doğru bir şekilde yaptıysanız 1 hafta içinde validator başvurunuz onaylanacaktır.
+
+### 0.8.0 Güncellemesi
+```
+docker stop NODEİSMİ 
+cd aleph-node-runner
+./run_node.sh -n NODEİSMİ --ip SUNUCUİPADRESİ 
+cd
+docker start NODEİSMİ
+```
+
