@@ -25,3 +25,5 @@ cd aleph-node-runner
 ```
 docker logs --follow NODEİSMİ
 ```
+## Validator başvuru yapıyoruz
+(https://validators.alephzero.org/)
