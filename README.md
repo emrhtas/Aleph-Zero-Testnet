@@ -34,4 +34,5 @@ Siteye gidiyoruz ve mail adresimizi yazıyoruz ve maile gelen kodu girerek oturu
 ### Telemetry de Node ismin görünecek. (kurulum yaparken açık oluyor zaten kontrol edersiniz)
 (https://telemetry.azero.dev/#list/0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5) 
 ### Kimlik Ayarı
+![set on identity](https://user-images.githubusercontent.com/101218992/200088300-7e415edc-7871-4bc8-989f-8f304017ec3a.png)
 
