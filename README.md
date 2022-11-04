@@ -40,4 +40,8 @@ Siteye gidiyoruz ve mail adresimizi yazıyoruz ve maile gelen kodu girerek oturu
 (https://faucet.test.azero.dev/) Günlük 25k token alabiliyorsunuz. Burada 2 cüzdanla token alıp fazladan aldığınız 25k tokeni validator oluşturacağınız cüzdanınıza göndermenizi tavsiye ederim.
 ### Stash ve Bond işlemi
 (https://test.azero.dev/#/staking/actions) Açılan sayfada sağ tarafta ' Stash' tuşuna basıyoruz ve en az 25k token seçerek bond diyoruz.
-### Oturum Anahtarı
+### Oturum anahtarı oluşturuyoruz
+Sunucumuza bağlanıp aşağıdaki komutu giriyoruz ve çıktıyı kaydediyoruz.
+```
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys"}' http://127.0.0.1:9933
+```
