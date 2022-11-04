@@ -12,10 +12,10 @@ sudo apt-get install docker.io -y
 ```
 git clone https://github.com/Cardinal-Cryptography/aleph-node-runner
 ```
-## Nodemizi çalıştırıyoruz( nodeismi yazan yere validator olarak görünmesini istediğiniz isminiy azın) bu yükleme biraz uzun sürebilir. 
+## Nodemizi çalıştırıyoruz( nodeismi yazan yere validator olarak görünmesini istediğiniz ismi yazın) bu yükleme biraz uzun sürebilir. 
 ```
 cd aleph-node-runner
-./run_node.sh -n nodeismi
+./run_node.sh -n NODEİSMİ
 ```
 # Validator için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
 ```
@@ -23,5 +23,5 @@ cd aleph-node-runner
 ```
 ## Log görünteleme
 ```
-docker logs --follow nodeismi
+docker logs --follow NODEİSMİ
 ```
