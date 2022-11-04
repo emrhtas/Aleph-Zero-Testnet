@@ -48,6 +48,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 Aldığımız çıktı şu şekilde olacak;
 {"jsonrpc":"2.0","result":"0xa8bccfe29da88f256545d2addc194b734f615cec70b99845d56384e0c0c2fe64de211d8dd724dece2b3bc26c3250c550b644fb586c0875693ee1099c13feb806
+
 Çıktıyı not almayı unutmayın 0x le başlayan kısım bizim anahtarımız!!!
 (https://test.azero.dev/#/staking/actions)   cüzdanımızın sağ tarafındaki 'set session key' tuşuna basarak sunucumuzdan aldığımız 0x li anahtarı giriyoruz ve onaylıyoruz.
 İşlem onaylandıktan sonra yine aynı sayfada cüzdanımızın sağ tarafında olan 'validate' tuşuna basarak komisyon oranımızı belirliyoruz ve onaylıyoruz. 
