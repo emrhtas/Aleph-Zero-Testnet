@@ -1,4 +1,5 @@
-# Aleph-Zero-Testnet
+# AlephZero-Testnet
+![aleph zero gereksinim](https://user-images.githubusercontent.com/101218992/200110712-e6810440-73d6-49fc-8297-b83d5a8427f1.jpeg)
 ## 1)Güncelleme yapıyoruz
 ```
 sudo apt update && sudo apt upgrade -y
