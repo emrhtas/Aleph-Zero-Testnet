@@ -20,13 +20,13 @@ git clone https://github.com/Cardinal-Cryptography/aleph-node-runner
 cd aleph-node-runner
 ./run_node.sh -n NODEİSMİ --ip SUNUCUIPADRESİ
 ```
-# 5)Validator için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
-```
-./signer.sh
-```
-## 6)Log görünteleme
+## 5)Log görünteleme
 ```
 docker logs --follow NODEİSMİ
+```
+## 6)Validator için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
+```
+./signer.sh
 ```
 ## 7) Cüzdan oluşturuyoruz. ( Cüzdanınız varsa eğer onu kullanabilirsiniz) 
 (https://test.azero.dev/#/accounts) sayfasına gidiyoruz ve 'add account' diyerek cüzdan oluşturuyoruz. 
