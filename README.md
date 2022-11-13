@@ -14,6 +14,9 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install git -y
 ```
 ```
+sudo apt install screen -y
+```
+```
 sudo apt-get install docker.io -y
 ```
 ## 3)Aleph Node Runner dosyasını klonluyoruz
