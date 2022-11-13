@@ -35,7 +35,7 @@ screen -S aleph
 ```
 docker logs --follow NODEİSMİ
 ```
-## 6)Validator için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
+## 6)Kurulum tamamlandıktan sonra validator onayı için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
 ```
 ./signer.sh
 ```
