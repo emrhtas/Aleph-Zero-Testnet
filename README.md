@@ -31,6 +31,8 @@ screen -S aleph
 ```
 ./run_node.sh -n NODEİSMİ --ip SUNUCUIPADRESİ
 ```
+Kurulum tamamlandıktan sonra 'Are you sure you want to skip the session keys check? [y/N]y' şeklinde bir soru soracak  Y dedikten sonra entere basalım. 
+
 ## 5)Log görünteleme
 ```
 docker logs --follow NODEİSMİ
@@ -39,7 +41,7 @@ docker logs --follow NODEİSMİ
 ```
 ./signer.sh
 ```
-## 7) Cüzdan oluşturuyoruz. ( Cüzdanınız varsa eğer onu kullanabilirsiniz) 
+## 7) Cüzdan oluşturuyoruz. ( Cüzdanınız varsa eğer onu kullanabilirsiniz) İki tane cüzdan oluşturun ve ikisiyle de faucetten token alın. Sonra 2. cüzdandan aldığınız tokeni diğer cüzdana atıp silebilirsiniz.
 https://test.azero.dev/#/accounts sayfasına gidiyoruz ve 'add account' diyerek cüzdan oluşturuyoruz. 
 ## 8)Validator başvuru yapıyoruz
 https://validators.alephzero.org/
