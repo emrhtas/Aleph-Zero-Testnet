@@ -1,6 +1,6 @@
 # AlephZero-Testnet
 ## Gereksinimler ve ödül hakkında bilgilendirme
-Teşvikler henüz açıklanmadı ancak yakın bir zamanda teşviklerle ilgili bilgilendirme yapılacak. Ağdaki işlemleri doğruladığınız süre için teşvik alacaksınız.
+Teşvikli testnet olacağını, önümüzdeki günlerde tevşikler hakkında detaylı bilgi verileceği belirtildi.
 ![aleph zero gereksinim](https://user-images.githubusercontent.com/101218992/200110712-e6810440-73d6-49fc-8297-b83d5a8427f1.jpeg)
  
  ### Takıldığınız yerler olursa buradan ulaşabilirsiniz. https://t.me/FortaDestek
