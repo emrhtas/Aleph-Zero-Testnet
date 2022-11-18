@@ -55,7 +55,7 @@ https://test.azero.dev/#/accounts  Siteye gidiyoruz, cüzdanımızın sağ taraf
 ### Faucet
 https://faucet.test.azero.dev/ Günlük 25k token alabiliyorsunuz. Burada 2 cüzdanla token alıp fazladan aldığınız 25k tokeni validator oluşturacağınız cüzdanınıza göndermenizi tavsiye ederim.
 ### Stash ve Bond işlemi
-https://test.azero.dev/#/staking/actions Açılan sayfada sağ tarafta ' Stash' tuşuna basıyoruz ve açılan ekranda en az 25k token seçerek bond diyoruz.
+https://test.azero.dev/#/staking/actions Açılan sayfada sağ tarafta ' Stash' tuşuna basıyoruz ve gelen ekranda en az 25k token seçerek bond diyoruz.
 ![Stash ve Bond](![aleph stash](https://user-images.githubusercontent.com/101218992/202739938-2c60919b-79ac-4ef3-b8ba-045f28d9ac90.png)
 ### Session Key oluşturuyoruz(Çıktıyı not almayı unutmayın!!!)
 Sunucumuza bağlanıp aşağıdaki komutu giriyoruz.
