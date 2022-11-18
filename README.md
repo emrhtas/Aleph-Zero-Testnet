@@ -24,7 +24,7 @@ sudo apt-get install docker.io -y
 git clone https://github.com/Cardinal-Cryptography/aleph-node-runner
 cd aleph-node-runner
 ```
-## 4)Screen açıp nodemizi çalıştırıyoruz( nodeismi yazan yere validator olarak görünmesini istediğiniz ismi yazın) bu yükleme biraz uzun sürebilir. Screenden çıkarken 'ctrl a d' tuşları ile çıkış yapalım. Daha sonra açtığımız screene girmemiz gerekirse screen -r aleph  ile giriş yapabilirsiniz.
+## 4)Screen açıp nodemizi çalıştırıyoruz( nodeismi yazan yere validator olarak görünmesini istediğiniz ismi yazın) bu yükleme biraz uzun sürecek o yüzden başında beklemeyin:) Screenden 'ctrl a d' tuşları ile çıkış yapalım. Daha sonra açtığımız screene girmemiz gerekirse screen -r aleph  ile giriş yapabilirsiniz.
 ```
 screen -S aleph
 ```
