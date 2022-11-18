@@ -31,7 +31,7 @@ screen -S aleph
 ```
 ./run_node.sh -n NODEİSMİ --ip SUNUCUIPADRESİ
 ```
-Kurulum tamamlandıktan sonra 'Are you sure you want to skip the session keys check? [y/N]y' şeklinde bir soru soracak  Y dedikten sonra entere basalım. 
+Kurulum tamamlandıktan sonra 'Are you sure you want to skip the session keys check? [y/N]y' şeklinde bir soru soracak  Y' ya basıp enter diyelim. 
 
 ## 5)Log görünteleme
 ```
