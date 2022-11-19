@@ -4,7 +4,7 @@ Teşvikli testnet olacağı, önümüzdeki günlerde tevşikler hakkında detayl
 ![aleph zero gereksinim](https://user-images.githubusercontent.com/101218992/200110712-e6810440-73d6-49fc-8297-b83d5a8427f1.jpeg)
  
  ### Takıldığınız yerler olursa buradan ulaşabilirsiniz. https://t.me/FortaDestek
-
+ ### AlephZero Discord https://discord.gg/alephzero
 ## 1)Güncelleme yapıyoruz
 ```
 sudo apt update && sudo apt upgrade -y
