@@ -72,7 +72,7 @@ https://test.azero.dev/#/staking/actions   cüzdanımızın sağ tarafındaki 's
 Bu işlemlerin sonunda https://telemetry.azero.dev/#list/0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5 sitesinde ve https://test.azero.dev/#/staking sitesinde waiting kısmında node isminizi  görüyor olmanız lazım.
 #### Buraya kadar olan adımları doğru bir şekilde yaptıysanız 1 hafta içinde validator başvurunuz onaylanacaktır.
 
-### 0.8.0 Güncellemesi
+### 0.8.0 Güncellemesi ( Telemetry den kendinize baktığınızda hangi versiyonda olduğunuz görünüyor. 0.8.0 yazıyorsa eğer güncelleme yapmanıza gerek yok)
 ```
 docker stop NODEİSMİ 
 cd aleph-node-runner
@@ -82,4 +82,7 @@ ctrl a d (screenden çıkıyoruz)
 cd
 docker start NODEİSMİ
 ```
+
+## Validator onayı aldıktan sonra önemli olan şeyler
+![aleph validator stats](https://user-images.githubusercontent.com/101218992/202911878-c306520d-e9be-43f4-8b9a-b555d9830ec1.png)
 
