@@ -39,6 +39,7 @@ docker logs --follow NODEİSMİ
 ```
 ## 6)Kurulum tamamlandıktan sonra validator onayı için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
 ```
+cd aleph-node-runner
 ./signer.sh
 ```
 ## 7) Cüzdan oluşturuyoruz. ( Cüzdanınız varsa eğer onu kullanabilirsiniz) İki tane cüzdan oluşturun ve ikisiyle de faucetten token alın. Sonra 2. cüzdandan aldığınız tokeni diğer cüzdana atıp silebilirsiniz.
