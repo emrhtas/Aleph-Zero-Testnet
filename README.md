@@ -84,5 +84,8 @@ docker start NODEİSMİ
 ```
 
 ## Validator onayı aldıktan sonra önemli olan şeyler
+15 dakikalık süreçler şeklinde aktif sete 4 er kişi alınıyor ve 15 dakika sonunda sıradaki 4 kişi aktif sete giriyor. Bu işlem tamamen sırayla gidiyor herkese eşit oranda aktif set için şans veriliyor. 
+https://test.azero.dev/#/staking Açılan sayfada validator stats a tıklıyoruz ve cüzdan adresimizi yazıp enter diyoruz. Performans bilgilerimizin yazdığı bir ekran açılıyor. 
+Session kısmında aktif sette olduğumuz oturumları gösteriyor. 1 oturumda bizden 64-65 blok beklentisi var ve bizden minimum %80 verimlilik bekleniyor. %80 e ulaşamazsanız eğer 'Underperformed Session Count' kısmına başarısız olduğunuz oturum sayısı ekleniyor. 
 ![aleph validator stats](https://user-images.githubusercontent.com/101218992/202911878-c306520d-e9be-43f4-8b9a-b555d9830ec1.png)
 
