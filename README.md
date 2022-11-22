@@ -1,8 +1,8 @@
 # AlephZero-Testnet
 ## Gereksinimler ve ödül hakkında bilgilendirme
-Teşvikli testnet olacağı, önümüzdeki günlerde tevşikler hakkında detaylı bilgi verileceği belirtildi.
+Teşvikli testnet 10 Kasımda başladı ama ödüllerle alakalı bilgiler ilerleyen zamanlarda belirtilecek. 
 ![aleph zero gereksinim](https://user-images.githubusercontent.com/101218992/200110712-e6810440-73d6-49fc-8297-b83d5a8427f1.jpeg)
- 
+ Ücretli sunucu kullanan arkadaşlar Contabo M paket (6cpu-16gb Ram- 400 gb ssd) ile denedim herhangi bir sorun olmadı node sağlıklı bir şekilde çalışıyor ancak ekibin minimum önerdiği hafıza 1 tb. Bu pakete kurmak isteyenlere hafızayı 600 ssd ye çıkarmasını tavsiye ederim. Testnet bitene kadar belki hafıza dolmaz veya en azından 600 gb dolana kadar node çalıştırmış olursunuz. 
  ### Takıldığınız yerler olursa buradan ulaşabilirsiniz. https://t.me/FortaDestek
 
 ## 1)Güncelleme yapıyoruz
@@ -31,15 +31,23 @@ screen -S aleph
 ```
 ./run_node.sh -n NODEİSMİ --ip SUNUCUIPADRESİ
 ```
+Bu kısımda yükleme başladıysa ctrl a d ile screen den çıkın. Boş yere beklemeyin 4-5 saat sürüyor kurulum aşaması :D 
+## Yüklemenin durumunu kontrol etmek için tekrar sunucuya bağlandığınız zaman şu komutları kullanabilirsiniz.
+```
+cd aleph-node-runner
+screen -r aleph
+```
 Kurulum tamamlandıktan sonra 'Are you sure you want to skip the session keys check? [y/N]y' şeklinde bir soru soracak  Y' ya basıp enter diyelim. 
-
+## Buradan sonraki kısımlar için screen içine girmenize gerek yok. Sunucuya bağlandığınızda aleph-node-runner klasörü içine girerek işlem yapmanız yeterli.
+```
+cd aleph-node-runner
+```
 ## 5)Log görünteleme
 ```
 docker logs --follow NODEİSMİ
 ```
 ## 6)Kurulum tamamlandıktan sonra validator onayı için gerekli bilgilerimizi alıyoruz. Çıktıyı mutlaka not alın!!!
 ```
-cd aleph-node-runner
 ./signer.sh
 ```
 ## 7) Cüzdan oluşturuyoruz. ( Cüzdanınız varsa eğer onu kullanabilirsiniz) İki tane cüzdan oluşturun ve ikisiyle de faucetten token alın. Sonra 2. cüzdandan aldığınız tokeni diğer cüzdana atıp silebilirsiniz.
