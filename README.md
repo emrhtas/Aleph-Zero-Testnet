@@ -87,11 +87,7 @@ Bu işlemlerin sonunda https://telemetry.azero.dev/#list/0x05d5279c52c484cc80396
 ```
 docker stop NODEİSMİ 
 cd aleph-node-runner
-screen -r aleph
 ./run_node.sh -n NODEİSMİ --ip SUNUCUİPADRESİ 
-ctrl a d (screenden çıkıyoruz)
-cd
-docker start NODEİSMİ
 ```
 
 ## Validator onayı aldıktan sonra önemli olan şeyler
