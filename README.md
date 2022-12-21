@@ -80,7 +80,7 @@ Aldığımız çıktı şu şekilde olacak;
 Çıktıyı not almayı unutmayın 0x le başlayan kısım bizim anahtarımız!!!
 https://test.azero.dev/#/staking/actions   cüzdanımızın sağ tarafındaki 'set session key' tuşuna basarak sunucumuzdan aldığımız 0x li anahtarı giriyoruz ve onaylıyoruz.
 İşlem onaylandıktan sonra yine aynı sayfada cüzdanımızın sağ tarafında olan 'validate' tuşuna basarak komisyon oranımızı belirliyoruz ve onaylıyoruz. 
-Bu işlemlerin sonunda https://telemetry.azero.dev/#list/0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5 sitesinde ve https://test.azero.dev/#/staking sitesinde waiting kısmında node isminizi  görüyor olmanız lazım.
+Bu işlemlerin sonunda https://telemetry.azero.dev/#list/0x05d5279c52c484cc80396535a316add7d47b1c5b9e0398dd1f584149341460c5 sitesinde ve https://test.azero.dev/#/staking/targets sitesinde node isminizi görüyor olmanız lazım.
 #### Buraya kadar olan adımları doğru bir şekilde yaptıysanız 1 hafta içinde validator başvurunuz onaylanacaktır.
 
 ### Güncelleme komutu
