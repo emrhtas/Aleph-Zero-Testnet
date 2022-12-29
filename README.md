@@ -96,3 +96,21 @@ https://test.azero.dev/#/staking Açılan sayfada validator stats a tıklıyoruz
 Session kısmında aktif sette olduğumuz oturumları gösteriyor. 1 oturumda bizden 64-65 blok beklentisi var ve bizden minimum %80 verimlilik bekleniyor. %80 e ulaşamazsanız eğer 'Underperformed Session Count' kısmına başarısız olduğunuz oturum sayısı ekleniyor. 
 ![aleph validator stats](https://user-images.githubusercontent.com/101218992/202911878-c306520d-e9be-43f4-8b9a-b555d9830ec1.png)
 
+## Ödül dağıtımı için cüzdan adresi ve ip ekleme
+1) Yeni cüzdan oluşturup ödüllerin oraya gelmesini isterseniz eğer linke tıklayarak aşağıdaki adımları izleyin. 
+https://azero.dev/#/accounts Bu siteye gidip Add account diyerek yeni bir cüzdan oluşturuyoruz ve adresimizi kopyalıyoruz. Aleph  cüzdan adresiniz 5 ile başlayacak. Örnek: 5EPAxZ6B2TUibFLXpQBZUhr7T4qS318FGNuRKJi7EdsdwRko
+2) https://validators.alephzero.org/  Daha önce bilgilerimizi girdiğimiz validator sitesine gidiyoruz ve ekranın ortasında edit yazan yere tıklıyoruz. 
+![edit](https://user-images.githubusercontent.com/101218992/209921290-7696f2cd-f7e0-44cf-b4f3-30d8af1e05c3.png)
+
+Biraz aşağıya inin airdrop data bölümünü göreceksiniz. Mainnet Account yazan yere ödülün gelmesini istediğiniz cüzdan adresinizi, Testnet Ip Adress yazan yere sunucu ip nizi yazın.
+![testnet ip](https://user-images.githubusercontent.com/101218992/209921567-3261621f-e68a-41d9-9dd6-1505c1072775.png)
+
+Bilgileri girip save changes diyorsunuz ve size aşağıdaki gibi bir uyarıda bulunuyor. 
+![attention](https://user-images.githubusercontent.com/101218992/209923013-b264d084-ae50-4b0e-a7b2-cc443b939f04.png)
+
+
+I agree diyerek onaylıyorsunuz. İşlemler bu kadar arkadaşlar. Biz yeni bir cüzdan açarak işlem yapmayı tercih ettik. Daha önceden var olan bir cüzdanı veya testnet adresimi kullansam olur mu acaba diye düşünüyorsanız hiç düşünmeyin gidip yeni cüzdan açın olsun bitsin. Yeni cüzdan açmak 10 saniye sürüyor. 
+
+
+
+
